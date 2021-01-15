@@ -1,11 +1,6 @@
-<a href="https://www.rearc.io/data/">
-    <img src="./rearc_logo_rgb.png" alt="Rearc Logo" title="Rearc Logo" height="52" />
-</a>
-
-
 ## 30-Year Fixed Rate Mortgage Average in the United States (MORTGAGE30US) | FRED
 
-You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-gfrxjixawael4](https://aws.amazon.com/marketplace/pp/prodview-gfrxjixawael4).
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/fred-30-year-fixed-rate-mortgage-avg-us](https://github.com/rearc-data/fred-30-year-fixed-rate-mortgage-avg-us).
 
 ### Main Overview
 The dataset file included with this product is provided in CSV format. README files are also included to offer context on data fields used throughout the dataset files. The specific files included with each revisions may vary.
