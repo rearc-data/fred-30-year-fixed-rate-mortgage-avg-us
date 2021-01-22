@@ -3,9 +3,15 @@
 The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/fred-30-year-fixed-rate-mortgage-avg-us](https://github.com/rearc-data/fred-30-year-fixed-rate-mortgage-avg-us).
 
 ### Main Overview
-The dataset file included with this product is provided in CSV format. README files are also included to offer context on data fields used throughout the dataset files. The specific files included with each revisions may vary.
+The dataset file included with this product is provided in the CSV format. README files are also included to offer context on data fields used throughout the dataset files. The specific files included with each revisions may vary.
 
-This dataset contains a historical time-series data of Freddie Mac, 30-Year Fixed Rate Mortgage Average in the United States [MORTGAGE30US] starting from '1971-04-02' to the current week. The unit of the data is Percent and it is not seasonally adjusted.
+This dataset contains a historical time-series data of Freddie Mac, 30-Year Fixed Rate Mortgage Average in the United States [MORTGAGE30US] starting from '1971-04-02' to the current week.
+
+The included dataset contains the following columns:
+
+`date, MORTAGE30US`
+
+The `MORTAGE30US` column represents the fixed rate mortgage average as a percentage at the time of the corresponding `date`.
 
 ### Data Source
 This dataset is provided by the [Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/) Economic Data (FRED). 
